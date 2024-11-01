@@ -1,0 +1,143 @@
+.carousel-item img{
+    height: 100vh;
+    width: 100%;
+}
+.btn12{
+    margin-left: 430px !important;
+}
+.btn3{
+    margin-left: 160px;
+  background-color: #68733F;
+  color: white;
+}
+.btn3 ,.btn1 {
+  background-color: #68733F;
+}
+.tittle{
+  color: #68733F;
+}
+.card1, .lab1{
+    border-color:#68733F;
+}
+.div-img{
+    height: 250px;
+    background-image: url(../images/drink-6815800_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div-img1{
+  background-image: url(../images/cappuccino-1137644_1920.jpg);
+}
+.img-transform , .box{
+    transform-style: preserve-3d;
+    perspective: 700px;
+}
+.card3-1:hover ,.card3-2:hover ,.card3-3:hover {
+    transform: scale3d(0.9, 0.9,-0.1);
+    transition: 1s;
+}
+.card3-1 ,.card3-2 ,.card3-3 {
+    transition: 0.5s;
+}
+.box::after{
+    content:"" ;
+position: absolute;
+bottom: 0;
+left: 0;
+border-style: solid;
+border-width: 0px 15px 290px 0px;
+border-color: transparent transparent  rgb(249, 249, 249)  transparent;
+}
+.box2::after{
+    content:"" ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0px  0px  380px  15px;
+    border-color: transparent transparent  rgb(249, 249, 249)  transparent;
+}
+@media(max-width:1000px){
+  .box::after{
+  border-color: transparent transparent  transparent  transparent; }
+  .box2::after{
+      border-color: transparent transparent  transparent  transparent; }
+    .btn3-8{
+      margin-left: 140px;
+    } 
+    .btn3-7{
+      margin-left: 126px;}
+      .btn3-6{
+        margin-left: 185px;}
+        .btn3-9{
+          margin-left:172px;}
+          .aa1{width: 70px; }
+  }
+.card1:after ,.card1:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0 ;
+    bottom : 0;
+    right: 0;
+        background-color:hsl(73, 29%, 35%);
+        opacity: 1; 
+        transition: 0.5s ;
+    }
+ .card1:hover::after ,.card1:hover::before {
+     width: 100%;
+     height: 100%;
+     opacity: 0.4 ;
+     transition: 1s ;
+ }
+ .card1:before {
+    top : 0;
+    left: 0;
+ }
+ .line{
+    width: 50px;
+    height: 3px;
+    background-color: hsl(73, 29%, 35%);
+    transition: 0.5s;
+ }
+ .card5:hover .line {
+    transform: scale(1.5, 1);
+    transition: 1s;
+  }
+  .card5{
+    box-shadow: 1px 1px 22px 3px rgb(235, 172, 96);
+  }
+  .icon1 ,.icon{
+    font-size: 65px !important;
+  }
+  .icon1:hover ,.btn15:hover{
+    color: #88a12f;
+  }
+  .btn15:hover{
+    background-color:#88a12f;
+  }
+  .btn15{
+    background-color:  #68733F;;
+  }
+  .card6{
+    max-width: 100%;
+    transition: 0.3s;
+  }
+  .card5:hover .card6 {
+   transform: scale3d(1.1, 1.1,10);
+   background-color: hsla(227, 29%, 18%, 0.5);
+  }
+  .box img ,.box2 img{
+    height: 306px !important;
+    width: 100%;
+  }
+  .overlay{
+    background-color: hsla(231, 28%, 10%, 0.5);
+}
+.card3-3:hover .overlay ,.card3-1:hover .overlay ,.card3-2:hover .overlay {
+  background-color: hsla(74, 29%, 65%, 0.4);
+  transition: 0.3s;
+ }
+ 
+ 

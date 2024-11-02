@@ -69,10 +69,13 @@ border-color: transparent transparent  rgb(249, 249, 249)  transparent;
     .btn3-7{
       margin-left: 126px;}
       .btn3-6{
-        margin-left: 185px;}
+        margin-left: 180px;}
         .btn3-9{
           margin-left:172px;}
           .aa1{width: 70px; }
+          .div-iqun{
+            margin-top: auto !important;
+          }
   }
 .card1:after ,.card1:before {
     position: absolute;
@@ -133,6 +136,8 @@ border-color: transparent transparent  rgb(249, 249, 249)  transparent;
     width: 100%;
   }
   .overlay{
+    width: 100%;
+    height: 100%;
     background-color: hsla(231, 28%, 10%, 0.5);
 }
 .card3-3:hover .overlay ,.card3-1:hover .overlay ,.card3-2:hover .overlay {

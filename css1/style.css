@@ -6,7 +6,6 @@
     margin-left: 430px !important;
 }
 .btn3{
-    margin-left: 160px;
   background-color: #68733F;
   color: white;
 }
@@ -58,25 +57,20 @@ border-color: transparent transparent  rgb(249, 249, 249)  transparent;
     border-width: 0px  0px  380px  15px;
     border-color: transparent transparent  rgb(249, 249, 249)  transparent;
 }
+.icon1 {
+  font-size: 80px !important;
+}
+.icon{
+  font-size: 100px !important;
+}
 @media(max-width:1000px){
   .box::after{
   border-color: transparent transparent  transparent  transparent; }
   .box2::after{
       border-color: transparent transparent  transparent  transparent; }
-    .btn3-8{
-      margin-left: 140px;
-    } 
-    .btn3-7{
-      margin-left: 126px;}
-      .btn3-6{
-        margin-left: 180px;}
-        .btn3-9{
-          margin-left:172px;}
           .aa1{width: 70px; }
-          .div-iqun{
-            margin-top: auto !important;
-          }
   }
+ 
 .card1:after ,.card1:before {
     position: absolute;
     content: "";
@@ -111,9 +105,7 @@ border-color: transparent transparent  rgb(249, 249, 249)  transparent;
   .card5{
     box-shadow: 1px 1px 22px 3px rgb(235, 172, 96);
   }
-  .icon1 ,.icon{
-    font-size: 65px !important;
-  }
+  
   .icon1:hover ,.btn15:hover{
     color: #88a12f;
   }
@@ -144,5 +136,9 @@ border-color: transparent transparent  rgb(249, 249, 249)  transparent;
   background-color: hsla(74, 29%, 65%, 0.4);
   transition: 0.3s;
  }
+ .form-check-input:checked {
+  background-color:#88a12f;
+  border-color: #88a12f;
+}
  
  
